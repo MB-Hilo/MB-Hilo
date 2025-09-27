@@ -8,7 +8,7 @@ I'm a pragmatic and performance-focused developer who loves building **scalable 
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React / TypeScript, Angular, Chrome Extensions
+- **Frontend:** React / TypeScript, React (currently), Angular (past), bit of Vue Chrome Extensions
 - **Backend:** Node.js / Restify, MongoDB, PostgreSQL
 - **Cloud & DevOps:** AWS, Azure DevOps, Docker, Kubernetes, PM2, Nginx
 - **Other:** Python, Streamlit, Puppeteer/Playwright, SES, Passport.js
