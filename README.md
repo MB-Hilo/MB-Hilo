@@ -46,10 +46,10 @@ I'm a pragmatic and performance-focused developer who loves building **scalable 
 
 ## 🌐 Connect with Me
 
-- 📍 Lisbon, Portugal (Canadian nationality)
+- 📍 North America or Europe (Canadian nationality)
 - 💼 [LinkedIn](https://www.linkedin.com/in/markobradley)
-- 🌐 [Portfolio](https://mb-hilo.github.io)
-- 🌐 [Consulting](https://www.hilo.ca)
+- 🌐 [CV](https://mb-hilo.github.io)
+- 🌐 [Portfolio / Consulting](https://www.hilo.ca)
 
 ---
 
