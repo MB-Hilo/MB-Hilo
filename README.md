@@ -2,7 +2,7 @@
 
 🚀 Full-Stack Developer • Technical Co-founder • 15+ Years Experience
 
-I'm a pragmatic and performance-focused developer who loves building **scalable web platforms**, **cloud-native applications**, and **user-centric interfaces**. Over the years I've worked with global enterprises like **CBC, BMO, Ørsted, Nordea, Publicis**, and more recently co-founded **[PricedOff](https://pricedoff.com)** — a consumer-first **price-intelligence platform**.
+I'm a pragmatic and performance-focused developer who loves building **scalable web platforms**, **cloud-native applications**, and **user-centric interfaces**. Over the years I've worked with global enterprises like **CBC, BMO, Ørsted, Nordea, Publicis**, and more recently co-founded **[PricedOff](https://pricedoff.com)** a consumer-first **price-intelligence platform**.
 
 ---
 
