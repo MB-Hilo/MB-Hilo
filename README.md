@@ -29,38 +29,95 @@ Pragmatic and performance-focused developer who loves building **scalable web pl
 
 ## Tech Stack
 
+*Versions shipped across the timeline — from jQuery-era production code to today's AI-native stack.*
+
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  FRONTEND                                                    │
-│  ▸ React 19 / Next.js 16 / TypeScript                        │
-│  ▸ TailwindCSS v4 / Shadcn UI / Radix UI                     │
-│  ▸ Three.js / Recharts / Fumadocs                            │
-│  ▸ Flutter (mobile)  |  Chrome Extensions                    │
-├─────────────────────────────────────────────────────────────┤
-│  BACKEND                                                     │
-│  ▸ Node.js / Restify / Next.js API Routes                    │
-│  ▸ Drizzle ORM + SQLite  |  MongoDB / Mongoose               │
-│  ▸ PostgreSQL  |  Dexie (IndexedDB)                          │
-├─────────────────────────────────────────────────────────────┤
-│  AI / ML                                                     │
-│  ▸ Anthropic Claude SDK  |  Google Gemini                    │
-│  ▸ OpenAI  |  FAL.ai  |  Cloudinary AI                       │
-├─────────────────────────────────────────────────────────────┤
-│  AUTH / PAYMENTS                                             │
-│  ▸ NextAuth / Clerk / Passport.js                            │
-│  ▸ Stripe  |  AWS SES                                        │
-├─────────────────────────────────────────────────────────────┤
-│  CLOUD / DEVOPS                                              │
-│  ▸ AWS  |  Azure DevOps  |  Docker  |  Kubernetes            │
-│  ▸ PM2  |  Nginx  |  Puppeteer / Playwright + Lambda         │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│  FRONTEND                                             2011 ─────────► now│
+│  ▸ JavaScript / TypeScript    ES5 → ES2024, TS 1.x → 5.x      2011–2026  │
+│  ▸ React                      0.13 → 19                       2015–2026  │
+│  ▸ Next.js                    9 → 16                          2020–2026  │
+│  ▸ Angular                    2 → 14 (AngularJS 1.x before)   2013–2022  │
+│  ▸ CSS / Sass → TailwindCSS   Sass, LESS → Tailwind v1 → v4   2011–2026  │
+│  ▸ Shadcn UI / Radix UI       current                         2023–2026  │
+│  ▸ Three.js / Recharts / D3   viz & 3D work                   2016–2026  │
+│  ▸ jQuery / Backbone          legacy & ad-tech era            2011–2016  │
+├──────────────────────────────────────────────────────────────────────────┤
+│  MOBILE                                                                  │
+│  ▸ Flutter / Dart             2.x → 3.10                      2022–2026  │
+│  ▸ Riverpod / go_router       Riverpod 1 → 3                  2022–2026  │
+│  ▸ Kotlin (native Android)    services, overlays, billing     2023–2026  │
+│  ▸ GLSL shaders  |  Hive      chroma-key & offline cache      2024–2026  │
+├──────────────────────────────────────────────────────────────────────────┤
+│  BACKEND                                                                 │
+│  ▸ Node.js                    0.10 → 22 LTS                   2013–2026  │
+│  ▸ Express / Restify          long-running services           2014–2026  │
+│  ▸ Dart Shelf                 1.4  |  JWT auth                2024–2026  │
+│  ▸ PostgreSQL                 9.x → 18                        2015–2026  │
+│  ▸ MongoDB / Mongoose         3.x → 7                         2016–2026  │
+│  ▸ Drizzle ORM + SQLite       current                         2024–2026  │
+│  ▸ Redis  |  Centrifugo / ntfy  cache, realtime, push         2018–2026  │
+├──────────────────────────────────────────────────────────────────────────┤
+│  AI / ML                                                                 │
+│  ▸ Anthropic Claude SDK       Claude 3 → Opus 5               2024–2026  │
+│  ▸ Google Gemini  |  OpenAI   Gemini 1.5 → 3, GPT-3.5 → 5     2023–2026  │
+│  ▸ FAL.ai  |  Cloudinary AI   image generation pipelines      2024–2026  │
+├──────────────────────────────────────────────────────────────────────────┤
+│  AUTH / PAYMENTS                                                         │
+│  ▸ Passport.js → NextAuth / Clerk  |  Google & Apple Sign-In  2015–2026  │
+│  ▸ Stripe                     one-off → subscriptions         2017–2026  │
+│  ▸ RevenueCat / Play Billing  mobile IAP & entitlements       2024–2026  │
+│  ▸ AWS SES                    transactional email at scale    2018–2026  │
+├──────────────────────────────────────────────────────────────────────────┤
+│  CLOUD / DEVOPS                                                          │
+│  ▸ AWS                        EC2, S3, Lambda, SES            2015–2026  │
+│  ▸ Docker                     1.x → 27                        2016–2026  │
+│  ▸ Kubernetes  |  Azure DevOps  enterprise CI/CD              2019–2023  │
+│  ▸ Coolify  |  PM2  |  Nginx  self-hosted deploys             2017–2026  │
+│  ▸ Puppeteer / Playwright     scraping + E2E, on Lambda       2019–2026  │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ## Highlight Projects
 
-### [Chatelope](https://www.chatelope.com) — Co-founder
+### ⏳ [Reveller](https://reveller.app) — Founder
+```
+  Screen-time recovery & habit reformer
+  "put the phone down, pick your life up"
+
+  Flutter  ·  Dart Shelf API  ·  Postgres
+```
+- **Digital-wellbeing app** — screen-time tracking, app blocking, journaling, goals, challenges, and group accountability
+- **Flutter** client (Riverpod, go_router, Freezed, fl_chart, Hive) with custom shader-driven overlay timers
+- **Dart Shelf API** with **Postgres** migrations, JWT auth (access + refresh), and bcrypt password hashing
+- **Realtime + notifications**: Centrifugo WebSockets, ntfy push, local notifications
+- **RevenueCat** subscriptions (Reveller Plus) with server-side webhook entitlement sync
+- Self-hosted on **Coolify** — Docker Compose stack for Postgres, Redis, Centrifugo, and ntfy
+- Ships a reusable `asset_repository` Dart package for remote, disk-cached app assets
+
+---
+
+### [Poekito](https://www.poekito.com) — [Co-founder](https://github.com/TruthReveller)
+```
+    /\_/\      Cute pet overlays for your phone
+   ( o.o )     cat · fox · corgi · deer · hare · boar
+    > ^ <      ────────────────────────────────────
+  ~~~~~~~~~~   floating companions + effect timers
+               drawn OVER whatever app you're in
+```
+- **Android overlay app** — animated companions drift across the screen above any other app
+- Native **Kotlin foreground service** (`SYSTEM_ALERT_WINDOW`) driven from Flutter over a `MethodChannel`
+- **Chroma-keyed video rendering** — GLSL fragment shader keys "mindful cat" clips onto the system UI, mirrored in both Kotlin and Flutter
+- Fullscreen effect timers (rising water, growing grass, frost, cracks) rendered natively
+- **RevenueCat** one-time unlock (Poekito Plus) with a legacy Play Billing fallback path
+- Remote asset delivery via the shared `reveller_asset_repository` package
+- **Next.js 16 + React 19 + Tailwind v4** marketing site with Sentry
+
+---
+
+### [Chatelope](https://www.chatelope.com) — [Co-founder](https://github.com/TruthReveller)
 ```
   /\_____/\
  (  0 m 0  )   Multi-model AI chat platform — web + mobile
@@ -92,7 +149,7 @@ Pragmatic and performance-focused developer who loves building **scalable web pl
 
 ---
 
-### [PricedOff](https://pricedoff.com) — Co-founder
+### [PricedOff](https://pricedoff.com) — [Co-founder](https://github.com/TruthReveller)
 ```
   [Amazon] ──> [Puppeteer/Playwright] ──> [Lambda+VPN]
       └──────────────────────────────────> [Watchlist]
