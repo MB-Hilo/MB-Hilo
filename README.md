@@ -19,7 +19,6 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║  > building scalable web platforms since before it was cool  ║
 ║  > currently: AI-native apps, cloud-native infra, good UX    ║
-║  > location: Lisbon, PT  |  origin: Toronto, CA              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
