@@ -36,14 +36,14 @@ Pragmatic and performance-focused developer who loves building **scalable web pl
 │  ▸ JavaScript / TypeScript    ES5 → ES2024, TS 1.x → 5.x      2011–2026  │
 │  ▸ React                      0.13 → 19                       2015–2026  │
 │  ▸ Next.js                    9 → 16                          2020–2026  │
-│  ▸ Angular                    2 → 14 (AngularJS 1.x before)   2013–2022  │
+│  ▸ Angular                    2 → 19 (AngularJS 1.x before)   2013–2024  │
 │  ▸ CSS / Sass → TailwindCSS   Sass, LESS → Tailwind v1 → v4   2011–2026  │
 │  ▸ Shadcn UI / Radix UI       current                         2023–2026  │
 │  ▸ Three.js / Recharts / D3   viz & 3D work                   2016–2026  │
 │  ▸ jQuery / Backbone          legacy & ad-tech era            2011–2016  │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  MOBILE                                                                  │
-│  ▸ Flutter / Dart             2.x → 3.10                      2022–2026  │
+│  ▸ Flutter / Dart             3.x → 3.38 (Dart 2 → 3.10)      2022–2026  │
 │  ▸ Riverpod / go_router       Riverpod 1 → 3                  2022–2026  │
 │  ▸ Kotlin (native Android)    services, overlays, billing     2023–2026  │
 │  ▸ GLSL shaders  |  Hive      chroma-key & offline cache      2024–2026  │
