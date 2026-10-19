@@ -52,7 +52,7 @@ Pragmatic and performance-focused developer who loves building **scalable web pl
 │  ▸ Node.js                    0.10 → 24 LTS                   2013–2026  │
 │  ▸ Express / Restify          long-running services           2014–2026  │
 │  ▸ Dart Shelf                 1.4  |  JWT auth                2024–2026  │
-│  ▸ PostgreSQL                 9.x → 18                        2015–2026  │
+│  ▸ PostgreSQL                 9.x → 16                        2015–2026  │
 │  ▸ MongoDB / Mongoose         3.x → 7                         2016–2026  │
 │  ▸ Drizzle ORM + SQLite       current                         2024–2026  │
 │  ▸ Redis  |  Centrifugo / ntfy  cache, realtime, push         2018–2026  │
