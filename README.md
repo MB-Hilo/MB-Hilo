@@ -49,7 +49,7 @@ Pragmatic and performance-focused developer who loves building **scalable web pl
 │  ▸ GLSL shaders  |  Hive      chroma-key & offline cache      2024–2026  │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  BACKEND                                                                 │
-│  ▸ Node.js                    0.10 → 22 LTS                   2013–2026  │
+│  ▸ Node.js                    0.10 → 24 LTS                   2013–2026  │
 │  ▸ Express / Restify          long-running services           2014–2026  │
 │  ▸ Dart Shelf                 1.4  |  JWT auth                2024–2026  │
 │  ▸ PostgreSQL                 9.x → 18                        2015–2026  │
